@@ -18,7 +18,7 @@ class Tag(models.Model):
 
 class Post(models.Model):
     author = models.ForeignKey(User, related_name='posts')
-    category = models.ForeignKey(Category, related_name='posts')
+    category = models.ForeignKey(Category, related_name='posts', null=True)
     tag = models.ManyToManyField(Tag, related_name='posts')
     title = models.CharField(max_length=64)
     content = models.TextField()
