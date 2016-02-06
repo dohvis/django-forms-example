@@ -1,0 +1,51 @@
+[
+  {
+    "model": "app.category",
+    "pk": 1,
+    "fields": {
+      "title": "Life"
+    }
+  },
+  {
+    "model": "app.category",
+    "pk": 2,
+    "fields": {
+      "title": "Security"
+    }
+  },
+  {
+    "model": "app.category",
+    "pk": 3,
+    "fields": {
+      "title": "Programming"
+    }
+  },
+  {
+    "model": "app.tag",
+    "pk": 1,
+    "fields": {
+      "title": "python"
+    }
+  },
+  {
+    "model": "app.tag",
+    "pk": 2,
+    "fields": {
+      "title": "reversing"
+    }
+  },
+  {
+    "model": "app.tag",
+    "pk": 3,
+    "fields": {
+      "title": "ollydbg"
+    }
+  },
+  {
+    "model": "app.tag",
+    "pk": 4,
+    "fields": {
+      "title": "ida"
+    }
+  }
+]
