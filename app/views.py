@@ -1,5 +1,7 @@
 from django.shortcuts import render
+from .forms import ModelFormExample
 
 
 def index(req):
-    return render(req, template_name='index.html')
+    form = ModelFormExample()
+    return render(req, 'index.html', {'form': form})
